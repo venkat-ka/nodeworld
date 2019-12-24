@@ -1,3 +1,4 @@
+//https://www.callicoder.com/node-js-express-mongodb-restful-crud-api-tutorial/
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -32,7 +33,7 @@ mongoose.connect(dbConfig.url, {
 
 // define a simple route
 app.get('/', (req, res) => {
-    res.json({"message": "Wdfffddelcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."});
+    res.json({"message": "Wdddelcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."});
 });
 
 // Require Notes routes
