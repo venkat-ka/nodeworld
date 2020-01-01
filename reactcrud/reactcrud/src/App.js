@@ -29,6 +29,7 @@ class App extends Component{
           </nav>
           <br/>
           <Route path="/" exact component={TodosList} />
+          <Route path="/pagination/:offetid/:limitid" component={TodosList} />
           <Route path="/edit/:id" component={EditTodo} />
           <Route path="/create" component={CreateTodo} />
         </div>
@@ -37,3 +38,4 @@ class App extends Component{
  }
 }
 export default App;
+
